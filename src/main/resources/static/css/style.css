@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif, Arial;
+
+}
+
+.button {
+    background-color: #FF4500;
+    border: none;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 15px 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #160ecc;
+    transition: 1s;
+}
+
+.ssilka{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 5%;
+
+}
